@@ -48,7 +48,7 @@ Section:NewButton("buy revolver on death", "autobuy", function()
     
 end)
 
-Section:NewButton("buy revolver on death", "autobuy", function()
+Section:NewButton("buy spas-55 shotty on death", "autobuy", function()
     game.Players.LocalPlayer.CharacterAdded:Connect(function(Player)
         wait(5)
         local A_1 = "BuyItem"
