@@ -6,7 +6,7 @@ local Section = Tab:NewSection("Autobuy")
 
 
 
-Section:NewButton("buy mk on death", "autobuy", function()
+Section:NewButton("MK-14", "autobuy", function()
     game.Players.LocalPlayer.CharacterAdded:Connect(function(Player)
         wait(5)
         local A_1 = "BuyItem"
@@ -20,7 +20,7 @@ Section:NewButton("buy mk on death", "autobuy", function()
 end)
 
 --Icr-3 buy on death
-Section:NewButton("buy icr-3 on death", "autobuy", function()
+Section:NewButton("ICR-3", "autobuy", function()
     game.Players.LocalPlayer.CharacterAdded:Connect(function(Player)
         wait(5)
         local A_1 = "BuyItem"
@@ -35,7 +35,7 @@ end)
 
 
 --Icr-3 buy on death
-Section:NewButton("buy revolver on death", "autobuy", function()
+Section:NewButton("Revolver", "autobuy", function()
     game.Players.LocalPlayer.CharacterAdded:Connect(function(Player)
         wait(5)
         local A_1 = "BuyItem"
@@ -48,7 +48,7 @@ Section:NewButton("buy revolver on death", "autobuy", function()
     
 end)
 
-Section:NewButton("buy spas-55 shotty on death", "autobuy", function()
+Section:NewButton("SPAS-55", "autobuy", function()
     game.Players.LocalPlayer.CharacterAdded:Connect(function(Player)
         wait(5)
         local A_1 = "BuyItem"
